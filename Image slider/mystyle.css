@@ -1,0 +1,37 @@
+#btn1,#btn2
+{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: lime;
+}
+
+#btnr{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: lime;
+
+}
+
+img{
+
+    width: 958px;
+    height: 578px;
+
+}
+
+.wrapper{
+        margin-left: 100px;
+}
+
+.mySlides {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mySlides.active {
+    opacity: 1;
+    position: relative;
+}
